@@ -15,6 +15,9 @@ export default function Home() {
         <h1 className={styles.title}>
         Welcome to secret {process.env.test_secret}
         </h1>
+        <h1 className={styles.title}>
+        This should say pokemon: {process.env.pokemon}
+        </h1>
       </main>
 
       <footer className={styles.footer}>

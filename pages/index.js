@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        Welcome to secret {process.env.hello}
+        Welcome to secret {process.env.test_secret}
         </h1>
       </main>
 
